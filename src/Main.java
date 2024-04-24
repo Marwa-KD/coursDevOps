@@ -15,5 +15,8 @@ public class Main {
         Box mediumBox = new Box("MediumBox");
         mediumBox.add(p3);
         mediumBox.add(smallBox);
+        Product p5 = new Product("ramen", 3);
+        Box SmallBox2 = new Box("SmallBox");
+        smallBox.add(p5);
     }
 }

@@ -10,7 +10,7 @@ public abstract class ProPackage {
     }
 
     public void setPrice(double price) {
-        this.price = price;
+        this.price = 10;
     }
 
     public String getName() {
