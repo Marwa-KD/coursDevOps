@@ -18,5 +18,7 @@ public class Main {
         Product p5 = new Product("ramen", 3);
         Box SmallBox2 = new Box("SmallBox");
         smallBox.add(p5);
+        SmallBox2.add(p3);
+        SmallBox2.add(p5);
     }
 }
